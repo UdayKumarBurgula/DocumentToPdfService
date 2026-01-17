@@ -50,3 +50,6 @@ git status
 git add .
 git commit -m "Initial .NET 8 microservice with Aspose PDF conversion"
 git status
+DocumentToPdfService>git remote add origin https://github.com/UdayKumarBurgula/DocumentToPdfService.git
+DocumentToPdfService>git branch -M main
+DocumentToPdfService>git push -u origin main --force

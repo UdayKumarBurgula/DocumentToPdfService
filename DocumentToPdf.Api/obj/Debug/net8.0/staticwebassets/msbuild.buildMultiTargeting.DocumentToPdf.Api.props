@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DocumentToPdf.Api.props" />
+</Project>

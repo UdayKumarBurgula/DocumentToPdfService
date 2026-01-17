@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DocumentToPdf.Api.props" />
+</Project>

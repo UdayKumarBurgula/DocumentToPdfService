@@ -1,0 +1,12 @@
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\bin\Debug\net8.0\DocumentToPdf.Core.deps.json
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\bin\Debug\net8.0\DocumentToPdf.Core.dll
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\bin\Debug\net8.0\DocumentToPdf.Core.pdb
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.csproj.AssemblyReference.cache
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.AssemblyInfoInputs.cache
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.AssemblyInfo.cs
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.csproj.CoreCompileInputs.cache
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.dll
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\refint\DocumentToPdf.Core.dll
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\DocumentToPdf.Core.pdb
+D:\Develop\Dotnet\DocumentToPdfService\DocumentToPdf.Core\obj\Debug\net8.0\ref\DocumentToPdf.Core.dll

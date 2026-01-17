@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Wwy72dYGa9IxuZ6TsfNY8BYG7Uq/ikowLoFErtPhnAg=",
+  "Source": "DocumentToPdf.Api",
+  "BasePath": "_content/DocumentToPdf.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -44,4 +44,9 @@ The async signature aligns with ASP.NET’s asynchronous request pipeline.
 
 -------------------------------------------------------------------
 
-
+git init
+dotnet new gitignore
+git status
+git add .
+git commit -m "Initial .NET 8 microservice with Aspose PDF conversion"
+git status

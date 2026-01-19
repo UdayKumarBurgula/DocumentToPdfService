@@ -3,5 +3,7 @@
 ################################################################################
 
 /.vs
+/DocumentToPdf.Api/bin/
 /DocumentToPdf.Api/obj/Debug/
+/DocumentToPdf.Core/bin/
 /DocumentToPdf.Core/obj/

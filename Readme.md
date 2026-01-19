@@ -170,3 +170,7 @@ Forwarding from 127.0.0.1:8081 -> 8080
 Forwarding from [::1]:8081 -> 8080
 Handling connection for 8081
 Handling connection for 8081
+
+I package my .NET 8 WebAPI using a multi-stage Docker build, 
+deploy it to Kubernetes using a Deployment for scaling and a Service for exposure. 
+This follows modern microservice best practices.

@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/DocumentToPdf.Api/obj/Debug/
+/DocumentToPdf.Core/obj/

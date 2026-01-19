@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: doc2pdf
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: doc2pdf
+  template:
+    metadata:
+      labels:
+        app: doc2pdf
+    spec:
+      containers:
+        - name: doc2pdf
+          image: doc2pdf:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: doc2pdf-svc
+spec:
+  selector:
+    app: doc2pdf
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: NodePort

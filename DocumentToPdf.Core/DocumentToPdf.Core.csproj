@@ -1,15 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
 
-  <ItemGroup>
-    <PackageReference Include="Aspose.Words" Version="24.12.0" />
-    <PackageReference Include="Aspose.Cells" Version="24.1.0" />
-    <PackageReference Include="Aspose.Slides.NET" Version="24.1.0" />
-  </ItemGroup>
+		<!-- NuGet packing -->
+		<PackageId>DocumentToPdf.Core</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Uday</Authors>
+		<Company>Uday</Company>
+		<Description>Document to PDF conversion core library (Aspose-based).</Description>
+		<PackageTags>pdf;aspose;converter</PackageTags>
+		<RepositoryUrl>https://github.com/UdayKumarBurgula/DocumentToPdfService</RepositoryUrl>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Your Aspose packages -->
+		<PackageReference Include="Aspose.Words" Version="24.12.0" />
+		<PackageReference Include="Aspose.Cells" Version="24.1.0" />
+		<PackageReference Include="Aspose.Slides.NET" Version="24.1.0" />
+	</ItemGroup>
 
 </Project>

@@ -34,8 +34,8 @@ public sealed class AsposeDocumentToPdfConverter : IDocumentToPdfConverter
         return ext switch
         {
             ".doc" or ".docx" or ".rtf" or ".odt" => ConvertWordToPdf(input),
-            //".xls" or ".xlsx" or ".csv" => ConvertExcelToPdf(input),
-            //".ppt" or ".pptx" => ConvertSlidesToPdf(input),
+            ".xls" or ".xlsx" or ".csv" => ConvertExcelToPdf(input),
+            ".ppt" or ".pptx" => ConvertSlidesToPdf(input),
             _ => throw new NotSupportedException($"Unsupported file type: {ext}")
         };
     }
@@ -60,28 +60,28 @@ public sealed class AsposeDocumentToPdfConverter : IDocumentToPdfConverter
     /// </summary>
     /// <param name="input"></param>
     /// <returns></returns>
-    //private static byte[] ConvertExcelToPdf(Stream input)
-    //{
-    //    // Aspose.Cells
-    //    var workbook = new Aspose.Cells.Workbook(input);
+    private static byte[] ConvertExcelToPdf(Stream input)
+    {
+        // Aspose.Cells
+        var workbook = new Aspose.Cells.Workbook(input);
 
-    //    using var ms = new MemoryStream();
-    //    workbook.Save(ms, Aspose.Cells.SaveFormat.Pdf);
-    //    return ms.ToArray();
-    //}
+        using var ms = new MemoryStream();
+        workbook.Save(ms, Aspose.Cells.SaveFormat.Pdf);
+        return ms.ToArray();
+    }
 
     /// <summary>
     /// ConvertSlidesToPdf
     /// </summary>
     /// <param name="input"></param>
     /// <returns></returns>
-    //private static byte[] ConvertSlidesToPdf(Stream input)
-    //{
-    //    // Aspose.Slides
-    //    var pres = new Aspose.Slides.Presentation(input);
+    private static byte[] ConvertSlidesToPdf(Stream input)
+    {
+        // Aspose.Slides
+        var pres = new Aspose.Slides.Presentation(input);
 
-    //    using var ms = new MemoryStream();
-    //    pres.Save(ms, Aspose.Slides.Export.SaveFormat.Pdf);
-    //    return ms.ToArray();
-    //}
+        using var ms = new MemoryStream();
+        pres.Save(ms, Aspose.Slides.Export.SaveFormat.Pdf);
+        return ms.ToArray();
+    }
 }

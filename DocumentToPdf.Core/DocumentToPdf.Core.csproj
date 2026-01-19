@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="Aspose.Words" Version="24.12.0" />
+    <PackageReference Include="Aspose.Cells" Version="24.1.0" />
+    <PackageReference Include="Aspose.Slides.NET" Version="24.1.0" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentToPdf.Api", "Docume
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36D705B9-DFB6-4B71-9531-788AA9A09925}"
 	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
